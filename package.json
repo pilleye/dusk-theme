@@ -2,6 +2,7 @@
   "name": "dusk",
   "version": "1.0.0",
   "author": "Aditya Pillai <dev@pillai.io>",
+  "publisher": "Pilleye",
   "displayName": "Dusk",
   "description": "A Horizon and Daybreak inspired color scheme for VSCode and iTerm",
   "engines": {
