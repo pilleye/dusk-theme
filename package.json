@@ -59,5 +59,9 @@
     "lodash": "^4.17.21",
     "mustache": "^4.2.0",
     "node-fetch": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pilleye/dusk-theme.git"
   }
 }
