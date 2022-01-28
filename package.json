@@ -1,8 +1,9 @@
 {
-  "name": "dusk",
-  "version": "1.0.0",
+  "name": "dusk-theme",
+  "version": "1.0.2",
   "author": "Aditya Pillai <dev@pillai.io>",
   "publisher": "Pilleye",
+  "icon": "logo.png",
   "displayName": "Dusk",
   "description": "A Horizon and Daybreak inspired color scheme for VSCode and iTerm",
   "engines": {

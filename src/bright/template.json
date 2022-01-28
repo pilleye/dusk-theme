@@ -138,7 +138,8 @@
     "gitDecoration.deletedResourceForeground": "{{ ui.negative }}",
     "gitDecoration.untrackedResourceForeground": "{{ ui.warning }}",
     "gitDecoration.ignoredResourceForeground": "{{ ui.darkText }}{{ alpha.medLow }}",
-    "breadcrumbPicker.background": "{{ ui.backgroundAlt }}"
+    "breadcrumbPicker.background": "{{ ui.backgroundAlt }}",
+    "minimap.background": "{{ ui.background }}{{ alpha.none }}"
   },
   "tokenColors": [
     {
