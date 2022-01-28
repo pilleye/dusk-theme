@@ -1,0 +1,63 @@
+{
+  "name": "dusk",
+  "version": "1.0.0",
+  "author": "Aditya Pillai <dev@pillai.io>",
+  "displayName": "Dusk",
+  "description": "A Horizon and Daybreak inspired color scheme for VSCode and iTerm",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusk-dark.json"
+      },
+      {
+        "label": "Dusk Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusk-dark-italic.json"
+      },
+      {
+        "label": "Dusk Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusk-dark-bold.json"
+      },
+      {
+        "label": "Dusk Bright",
+        "uiTheme": "vs",
+        "path": "./themes/dusk-bright.json"
+      },
+      {
+        "label": "Dusk Bright Italic",
+        "uiTheme": "vs",
+        "path": "./themes/dusk-bright-italic.json"
+      },
+      {
+        "label": "Dusk Bright Bold",
+        "uiTheme": "vs",
+        "path": "./themes/dusk-bright-bold.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "Dusk",
+        "label": "Dusk",
+        "path": "./icons/dusk-icon-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "color": "^4.2.0",
+    "lodash": "^4.17.21",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.2.0"
+  }
+}

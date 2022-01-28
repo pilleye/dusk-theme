@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Ansi Colors -->
+    {{#ansiColors}}
+	<key>Ansi {{number}} Color</key>
+	<dict>
+		<key>Alpha Component</key>
+		<real>{{a}}</real>
+		<key>Blue Component</key>
+		<real>{{b}}</real>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Green Component</key>
+		<real>{{g}}</real>
+		<key>Red Component</key>
+		<real>{{r}}</real>
+	</dict>
+	{{/ansiColors}}
+	{{#colors}}
+	<key>{{key}}</key>
+	<dict>
+		<key>Alpha Component</key>
+		<real>{{a}}</real>
+		<key>Blue Component</key>
+		<real>{{b}}</real>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Green Component</key>
+		<real>{{g}}</real>
+		<key>Red Component</key>
+		<real>{{r}}</real>
+	</dict>
+	{{/colors}}
+</dict>
+</plist>
